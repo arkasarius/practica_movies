@@ -64,7 +64,7 @@ it navigates to the details page and then updates the information of the page pa
 ````
 function getMovieAndDrawDetail(num){
      var request = $.ajax({
-          url: "https://api.themoviedb.org/3/movie/"+num+"?api_key=80865681c4ccae7b47ffebc8b71952d8",//num should be poster_path
+          url: "https://api.themoviedb.org/3/movie/"+num+"?api_key=APIKEY",//num should be poster_path
           method: "GET"
         });
         request.done(function( result ) {
