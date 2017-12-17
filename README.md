@@ -11,10 +11,12 @@ cordova create movies com.roger.www movies
 After that I replaced the WWW folder with one with a working version of JqueryMobile and Jquery
 Following it I started to develop the navigation Pages. 
 In this case I use 3 main pages:
-  - Main page consisting of an empty <ul> element where I append info from the external API used using Jquery requests.
-  - Details page with an image and <p> tag that shows the info of the selected item from the Main page item selected.
+
+  - Main page consisting of an empty ul element where I append info from the external API used using Jquery requests.
+  - Details page with an image and p tag that shows the info of the selected item from the Main page item selected.
   - Favorites page with a list of our favorite selection from the main page.
-For navigation I use the # for navigation
+  
+For navigation I use the Hash for navigation
 ```
 location.hash="#destinationIDofPage"
 ```
