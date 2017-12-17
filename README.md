@@ -59,7 +59,7 @@ function alertName(id){
 }
 ````
 
-The alertName function gets the target id of thee element itself and its called upon clicking on the li element.
+The alertName function gets the target id of the element itself and its called upon clicking on the li element.
 it navigates to the details page and then updates the information of the page passing the ID to the getMoviesAndDrawDetails function.
 ````
 function getMovieAndDrawDetail(num){
@@ -80,3 +80,7 @@ function getMovieAndDrawDetail(num){
     });
 }
 ````
+getMovieAndDrawDetail calls the api for the Json data from the movie using its unike ID and replaces the img source and the p tag with the info from the Movie.
+With this API I could also add info from the movie, but the main part of it is about showing an image and some info from the movie, more information is made using the same process, but not required because its the same process over and over.
+
+
