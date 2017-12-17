@@ -22,7 +22,7 @@ location.hash="#destinationIDofPage"
 ```
 This code uses the hash to navigate between the 3 pages, each one consisting on a diferent ID.
 
-## The Main page
+## The Code 
 
 for the main page I use a function called when the enviroment is ready to respond to javascript calls. In this initialization i call the Movies API database requesting for the most popular movies. The response is a Json format object with the information of the Movies.
 ```
