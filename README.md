@@ -48,7 +48,7 @@ request.done(function( moviesList ) {
                   });
 ```
 
-This method creates a <li> element wich is appended to the main page <ul>.
+This method creates a li element wich is appended to the main page ul.
 Also in the same process i catch an instance of the element created and add an event listener to add the click functionality and adding its unike ID collecteds from the API
   
 ````
