@@ -59,7 +59,7 @@ function alertName(id){
 }
 ````
 
-The alertName function gets the target id of thee element itself and its called upon clicking on the <li> element.
+The alertName function gets the target id of thee element itself and its called upon clicking on the li element.
 it navigates to the details page and then updates the information of the page passing the ID to the getMoviesAndDrawDetails function.
 ````
 function getMovieAndDrawDetail(num){
